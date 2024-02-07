@@ -1,0 +1,18 @@
+
+.dark{
+  color: #fff;
+  background-color:#242526;
+}
+.dark header{
+  background-color: #242526;
+}
+.dark .container h1{
+  color: #fff;
+}
+.dark header .icons .sing-up .user-info{
+  text-align: right;
+  color: #eee;
+}
+.dark header .icons .sing-up i {
+  color: #111;
+}

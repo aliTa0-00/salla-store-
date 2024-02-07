@@ -1,0 +1,74 @@
+header{
+  text-decoration: none;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+header .container{
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container h1{
+  cursor: pointer;
+  color: #333333;
+}
+header .icons{
+  display: flex;
+  align-items: center; 
+  gap: 20px;
+}
+header .icons .sing-up{
+  display: flex;
+
+  align-items: center;
+  gap: 15px;
+}
+header .icons .sing-up a{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+header .icons .sing-up .user-info{
+  text-align: right;
+  color: #333;
+}
+header .icons .sing-up a i{
+
+  color: #000;
+}
+
+header .icons .sing-up i {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #eee;
+  transition: all 0.3s;
+}
+header .icons .sing-up i:hover{
+  background-color: #62D0B6;
+  color: #fff;
+}
+header .header {
+  background-color: #333333;
+  color: #fff;
+}
+header .header ul li{
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+
+  transition: all .3s;
+}
+header .header ul li:hover{
+  border-bottom:  1px solid #62D0B6;
+}
+header .header ul{
+  display: flex;
+  gap: 30px;
+  padding: 10px;
+}
